@@ -1,12 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "/App";
 
 const date = new Date();
 const year = date.getFullYear();
 
-ReactDOM.render(
-  <div>
-    <h1>Hello {year}</h1>
-  </div>,
+ReactDOM.render(<App/>,
   document.getElementById("root")
 );
